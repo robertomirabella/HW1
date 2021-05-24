@@ -1,0 +1,212 @@
+article{
+    margin:0;
+    align-items: center;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+section div h2{
+    font-size: 2em;
+    color: orange;
+}
+
+#contenitore_input{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 10%;
+}
+
+#cerca{
+    margin-right: 5px;
+    color: orange;
+    margin-top: 35px;
+}
+
+input{
+    margin-top: 35px;
+}
+
+@media (max-width: 500px) {
+    #cerca{
+    margin-right: -35px;
+    margin-top: 15px;
+    }
+}
+
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+.contents_preferiti{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 85%
+}
+
+.img_content{
+    width: 100%;
+
+}
+
+.preferiti{
+    width: 8%;
+    right: 2%;
+    top: 2%;
+    position: absolute;
+    background-color: rgb(0,0,0,0.2);
+    border-radius: 100%;
+}
+.preferiti:hover{
+    cursor: pointer;
+}
+
+.blocchi{
+    background-color: rgb(205, 133, 63, 0.6);
+    width: 26%;
+    position: relative;
+    padding: 20px;
+    margin: 3px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    border:peru solid 2px;
+    border-radius: 20px;
+}
+
+.titolo{
+    margin: 0px;
+    font-size: 2em;
+}
+@media (max-width: 800px) {
+    .titolo{
+        font-size: 1.5em;
+    }
+    .preferiti{
+        width: 10%;
+        right: 3%;
+        top: 3%;
+    }
+    .info{
+        font-size: 0.8em;
+    }
+    .blocchi{
+        padding: 10px;
+    }
+}
+@media (max-width: 700px) {
+    .titolo{
+        font-size: 1.3em;
+    }
+    .bottone_info{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 700px) {
+    section {
+        width: 90%;
+        font-size: .875em;
+    }
+}
+.bottone_info{
+    border-radius: 5px;
+    border: black solid 1px;
+}
+.bottone_info:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+
+footer{
+    margin-top: 60px;
+}
+
+
+
+
+label{
+    font-size: 1.6em;
+    color: orange;
+}
+
+#adozione{
+    margin-top: 40px;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+select{
+    color: peru;
+    font-size: 0.85em;
+}
+
+.pet_image{
+    width: 300px;
+    height: 300px;
+
+}
+
+#elenco_pet{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hidden{
+    display: none;
+}
+
+.bottone_info{
+    border-radius: 5px;
+    border: black solid 1px;
+}
+.bottone_info:hover{
+    cursor: pointer;
+}
+
+.pet_titolo{
+    font-size: 1.45em;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .pet_image{
+        width: 130px;
+        height: 130px;
+    
+    }
+    .pet_titolo{
+        font-size: 0.85em;
+    }
+
+
+    .info{
+        font-size: 0.7em;
+    }
+
+}
+
+.pet_div{
+    background-color:  rgb(205, 133, 63, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border:peru solid 2px;
+
+}

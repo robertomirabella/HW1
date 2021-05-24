@@ -1,0 +1,87 @@
+
+.Table {
+    display: table;
+    width: 100%;
+    background-color: rgb(205, 133, 63,0.3);
+ }
+ .TableRow {
+    display: table-row;
+ }
+
+ .TableCell, .TableHead {
+    display: table-cell;
+    padding: 3px 10px;
+    border: 1.5px solid grey;
+ }
+
+
+ input{
+    background-color:rgb(205, 133, 63,0.2) ;
+    border-radius: 2px;
+ }
+
+ .box{
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 70px;
+ }
+ article{
+    margin-bottom: 70px;
+ }
+
+ .anagrafica{
+   flex-direction: column;
+   margin-bottom: 70px;
+   align-items: flex-end;
+   
+ }
+ .anagrafica div{
+    padding: 10px;
+   border: solid peru 4px;
+   border-radius: 20px;
+ }
+ .anagrafica h2{
+    color: coral;
+ }
+ .anagrafica p{
+    font-size: 18px;
+ }
+
+ @media (max-width: 800px) {
+   input{
+      max-width: 100px;
+   }
+   .anagrafica h2{
+      font-size: 20px;
+   }
+   .anagrafica p{
+      font-size: 14px;
+   }
+}
+@media (max-width: 500px) {
+   input{
+      max-width: 55px;
+   }
+   .box h2{
+      font-size:18px;
+   }
+   .box strong{
+      font-size: 13px;
+   }
+   .box p{
+      font-size: 10px;
+   }
+   article .box{
+      width: 100%;
+   }
+}
+
+   .submit{
+      position: absolute;
+      right: 0px;
+   }
+   
+.error{
+   color: red;
+   font-size: 14px;
+}
